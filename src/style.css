@@ -1,5 +1,59 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
-
-body{
-    background: white;
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.table {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0bc117, #0b3d2e);
+}
+
+
+.card {
+  width: 320px;
+  height: 480px;
+  background: white;
+  border-radius: 25px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.6);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.value {
+  font-size: 140px;
+  font-weight: bold;
+}
+
+
+.top-suit {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  font-size: 60px;
+}
+
+.bottom-suit {
+  position: absolute;
+  bottom: 25px;
+  right: 30px;
+  font-size: 60px;
+  transform: rotate(180deg);
+}
+
+
+.heart, .diamond {
+  color: red;
+}
+
+.spade, .club {
+  color: black;
+}
+
+
